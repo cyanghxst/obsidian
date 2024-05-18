@@ -1,8 +1,5 @@
 # Ignore Mac system files
 .DS_Store
 
-# *.plist
-
-lazy-lock.json
-
+# Ignore workspace file
 obsidian/obsidian/workspace.json
