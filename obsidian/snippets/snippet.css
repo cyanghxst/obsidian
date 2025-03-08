@@ -12,8 +12,9 @@ img[alt*="right"] {
     margin-top: 2px;
 }
 
+/* Latex */
 mjx-math {
-    font-size: 140% !important;
+    font-size: 120% !important;
 }
 
 .jl.popover {
