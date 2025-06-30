@@ -37,9 +37,27 @@ mjx-math {
     --jump-to-link-lightspeed-color: var(--text-muted);
 }
 
+.edit-block-button {
+    color: #b3b3b3;
+    background-color: transparent !important;
+}
+
+@media (hover: hover) {
+    .markdown-source-view.mod-cm6 .cm-embed-block:not(.cm-table-widget):hover {
+        box-shadow: 0 0 0 1px #363636 , inset 0 0 0 1px #363636;
+        border-radius: var(--radius-s);
+        overflow: hidden;
+        cursor: text;
+    }
+}
+
 /* .markdown-rendered code { */
 /*     border: 2px solid #ff5733; */
 /* } */
+
+.inline-title {
+    padding-bottom: 10px
+}
 
 body {
     /* Code */
