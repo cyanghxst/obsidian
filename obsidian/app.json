@@ -7,17 +7,17 @@
   "autoPairMarkdown": true,
   "spellcheck": false,
   "foldIndent": true,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "newFileLocation": "current",
   "strictLineBreaks": false,
   "tabSize": 4,
   "readableLineLength": true,
   "showIndentGuide": false,
   "livePreview": true,
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "visible",
   "rightToLeft": false,
   "focusNewTab": true,
   "alwaysUpdateLinks": true,
   "smartIndentList": true,
-  "showRibbon": false
+  "useTab": false
 }
