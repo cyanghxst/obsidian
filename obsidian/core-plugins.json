@@ -3,7 +3,7 @@
   "global-search": true,
   "switcher": false,
   "graph": true,
-  "backlink": true,
+  "backlink": false,
   "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
@@ -27,5 +27,6 @@
   "publish": false,
   "sync": false,
   "bookmarks": true,
-  "properties": true
+  "properties": true,
+  "webviewer": false
 }
