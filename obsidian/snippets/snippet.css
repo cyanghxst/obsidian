@@ -76,7 +76,7 @@ body {
     --code-tag: #fb464c;
     --code-value: #51dedc;
 
-    --callout-border-width: 0 0 0 3.5px;
+    /* --callout-border-width: 0 0 0 3.5px; */
     --callout-border-opacity: 0.5;
 }
 
