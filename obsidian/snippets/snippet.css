@@ -42,6 +42,10 @@ mjx-math {
     background-color: transparent !important;
 }
 
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+    border-top: transparent;
+}
+
 /* Hover effect for embed blocks */
 @media (hover: hover) {
     .markdown-source-view.mod-cm6 .cm-embed-block:not(.cm-table-widget):hover {
