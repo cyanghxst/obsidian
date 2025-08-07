@@ -56,6 +56,12 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
     }
 }
 
+/* Important Callout */
+.callout[data-callout="important"] {
+    --callout-color: var(--callout-important);
+    --callout-icon: lucide-circle-alert;
+}
+
 /* Title Padding */
 .inline-title {
     padding-bottom: 10px;
