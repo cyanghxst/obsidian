@@ -65,7 +65,7 @@
   "minimal-style@@metadata-heading-off": true,
   "minimal-style@@metadata-add-property-off": true,
   "minimal-style@@metadata-icons-off": true,
-  "minimal-style@@metadata-dividers": true,
+  "minimal-style@@metadata-dividers": false,
   "minimal-style@@metadata-label-width": 6.5,
   "minimal-style@@sidebar-tabs-names": "tab-names-single",
   "minimal-style@@vault-profile-display": "vault-profile-default",
