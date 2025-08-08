@@ -91,3 +91,11 @@ body {
     border: 2px solid #ff5733;
 }
 */
+
+.metadata-container {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
