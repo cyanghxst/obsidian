@@ -9,9 +9,9 @@
   "minimal-style@@h5-variant": "normal",
   "minimal-style@@h6-variant": "normal",
   "minimal-style@@tag-radius": "14px",
-  "minimal-style@@tag-border-width": "1px",
+  "minimal-style@@tag-border-width": "0",
   "minimal-style@@tag-color@@dark": "#0E7DFE",
-  "minimal-style@@tag-background@@dark": "#2A3240",
+  "minimal-style@@tag-background@@dark": "#283A5A",
   "minimal-style@@h1-size": "20pt",
   "minimal-style@@h2-size": "16pt",
   "minimal-style@@row-lines": false,
@@ -35,7 +35,6 @@
   "minimal-style@@maximize-tables-off": "maximize-tables",
   "minimal-style@@callouts-style": "callouts-default",
   "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
-  "minimal-style@@tag-background-hover@@dark": "#323B4C",
   "minimal-style@@mobile-right-sidebar-width": 240,
   "minimal-style@@file-header-font-weight": 400,
   "minimal-style@@sidebar-tabs-style": "sidebar-tabs-underline",
@@ -72,5 +71,6 @@
   "minimal-style@@hide-help": false,
   "minimal-style@@hide-settings": false,
   "minimal-style@@icon-muted": 0.5,
-  "minimal-style@@blockquote-border-thickness": 1
+  "minimal-style@@blockquote-border-thickness": 1,
+  "minimal-style@@tag-background-hover@@dark": "#2E4979"
 }
