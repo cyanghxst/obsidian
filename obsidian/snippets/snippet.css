@@ -122,3 +122,12 @@ input.metadata-property-key-input {
 .external-link {
     padding-inline-end: 1em;
 }
+
+.markdown-source-view.mod-cm6 .cm-table-widget .table-row-btn {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--max-width);
+    border-top: none;
+    cursor: s-resize;
+}
