@@ -131,3 +131,19 @@ input.metadata-property-key-input {
     border-top: none;
     cursor: s-resize;
 }
+
+.metadata-container .multi-select-pill {
+  background: var(--tag-background);
+  color: var(--tag-color);
+  line-height: 1.1;
+}
+
+.metadata-container .multi-select-pill:hover {
+  background: var(--tag-color);
+  color: #ffffff;
+}
+
+.metadata-container .multi-select-pill:hover .multi-select-pill-remove-button {
+  color: #ffffff;
+  fill: #ffffff;
+}
