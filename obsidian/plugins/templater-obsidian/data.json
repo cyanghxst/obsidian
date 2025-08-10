@@ -32,7 +32,6 @@
     ""
   ],
   "startup_templates": [
-    "Templates/Lecture note.md",
     ""
   ],
   "intellisense_render": 1
