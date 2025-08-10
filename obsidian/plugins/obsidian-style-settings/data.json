@@ -57,10 +57,8 @@
   "minimal-style@@tab-stacked-pane-width": 2000,
   "minimal-style@@table-nowrap": false,
   "minimal-style@@h3-weight": 500,
-  "minimal-style@@inline-title-size": "2.1em",
   "minimal-advanced@@animations": "default",
   "minimal-style@@minimal-unstyled-tags": false,
-  "minimal-style@@inline-title-weight": 600,
   "minimal-style@@metadata-heading-off": true,
   "minimal-style@@metadata-add-property-off": false,
   "minimal-style@@metadata-icons-off": true,
@@ -72,5 +70,7 @@
   "minimal-style@@hide-settings": false,
   "minimal-style@@icon-muted": 0.5,
   "minimal-style@@blockquote-border-thickness": 1,
-  "minimal-style@@tag-background-hover@@dark": "#2E4979"
+  "minimal-style@@tag-background-hover@@dark": "#2E4979",
+  "minimal-style@@inline-title-size": "2.3em",
+  "minimal-style@@inline-title-weight": 600
 }
