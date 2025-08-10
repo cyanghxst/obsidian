@@ -27,7 +27,7 @@
   "focusMode": false,
   "underlineInternal": false,
   "underlineExternal": false,
-  "folding": false,
+  "folding": true,
   "lineNumbers": false,
   "readableLineLength": true,
   "devBlockWidth": false,
