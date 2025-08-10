@@ -159,3 +159,8 @@ input.metadata-property-key-input {
 .view-content .is-collapsed .list-collapse-indicator svg.svg-icon, .view-content .is-collapsed .collapse-indicator svg.svg-icon {
     color: var(--collapse-icon-color);
 }
+
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher-icon {
+    color: var(--icon-color);
+    opacity: var(--icon-opacity);
+}
