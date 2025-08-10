@@ -147,3 +147,15 @@ input.metadata-property-key-input {
   color: #ffffff;
   fill: #ffffff;
 }
+
+.h2-l .markdown-reading-view h2, .h2-l .mod-cm6 .cm-editor .HyperMD-header-2 {
+    padding-bottom: .6em;
+}
+
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator {
+    padding-inline-end: 8px;
+}
+
+.view-content .is-collapsed .list-collapse-indicator svg.svg-icon, .view-content .is-collapsed .collapse-indicator svg.svg-icon {
+    color: var(--collapse-icon-color);
+}
