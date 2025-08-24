@@ -164,3 +164,7 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
     color: var(--icon-color);
     opacity: var(--icon-opacity);
 }
+
+.checkbox-square {
+    --checkbox-radius: 3px;
+}
