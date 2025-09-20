@@ -19,5 +19,12 @@
   "focusNewTab": true,
   "alwaysUpdateLinks": true,
   "smartIndentList": true,
-  "useTab": false
+  "useTab": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
