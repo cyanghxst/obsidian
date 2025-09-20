@@ -13,6 +13,11 @@ mjx-math {
     font-size: 120% !important;
 }
 
+.callout {
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+}
+
 .jl.popover {
     position: absolute;
     display: block;
@@ -133,19 +138,19 @@ input.metadata-property-key-input {
 }
 
 .metadata-container .multi-select-pill {
-  background: var(--tag-background);
-  color: var(--tag-color);
-  line-height: 1.1;
+    background: var(--tag-background);
+    color: var(--tag-color);
+    line-height: 1.1;
 }
 
 .metadata-container .multi-select-pill:hover {
-  background: var(--tag-color);
-  color: #ffffff;
+    background: var(--tag-color);
+    color: #ffffff;
 }
 
 .metadata-container .multi-select-pill:hover .multi-select-pill-remove-button {
-  color: #ffffff;
-  fill: #ffffff;
+    color: #ffffff;
+    fill: #ffffff;
 }
 
 .h2-l .markdown-reading-view h2, .h2-l .mod-cm6 .cm-editor .HyperMD-header-2 {
