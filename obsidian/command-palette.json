@@ -3,7 +3,6 @@
     "editor:toggle-source",
     "editor:attach-file",
     "app:delete-file",
-    "app:open-vault",
     "file-explorer:move-file",
     "workspace:toggle-stacked-tabs",
     "obsidian-style-settings:show-style-settings-leaf"
