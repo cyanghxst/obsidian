@@ -1,21 +1,15 @@
-img[alt*="center"] {
-    display: block;
-    margin-inline: auto;
-}
-
-img[alt*="right"] {
-    float: right;
-    clear: right;
-    margin: 2px 0 2px 1rem;
-}
-
 mjx-math {
-    font-size: 120% !important;
+    font-size: 118% !important;
+}
+
+.math-block mjx-mtd {
+    padding-bottom: 0.2em !important;
+    padding-top: 0.2em !important;
 }
 
 .callout {
-  page-break-inside: avoid;
-  break-inside: avoid-page;
+    page-break-inside: avoid;
+    break-inside: avoid-page;
 }
 
 .jl.popover {
@@ -57,7 +51,30 @@ body:not(.is-mobile)
     padding-bottom: 10px;
 }
 
+/* Centers images in Editor Mode */
+.cm-editor img {
+    display: block;           /* Makes the img tag a block element */
+    margin-left: auto;        /* Auto margin on the left */
+    margin-right: auto;       /* Auto margin on the right */
+    max-width: 100%;          /* Prevents image from overflowing */
+}
+
+/* Centers images in Reading Mode */
+.markdown-preview-view img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.markdown-source-view.is-live-preview {
+    --list-padding-inline-start: var(--list-indent-editing);
+    --list-marker-space: 0.25em;
+}
+
 body {
+    /* --list-indent-editing: 5em; */
+    /* --list-indent: 5em; */
     --code-size: var(--font-smaller);
     --code-background: var(--background-primary-alt);
     --code-normal: #b3b3b3;
@@ -154,7 +171,7 @@ input.metadata-property-key-input {
 }
 
 .h2-l .markdown-reading-view h2, .h2-l .mod-cm6 .cm-editor .HyperMD-header-2 {
-    padding-bottom: .6em;
+    padding-bottom: .4em;
 }
 
 .markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator {
