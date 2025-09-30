@@ -8,13 +8,17 @@
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "inject",
-    "snippet",
     "big-math",
-    "image_align"
+    "image_align",
+    "snippet",
+    "content-formatting",
+    "core-theme",
+    "editor-ui-and-metadata",
+    "layout-workspace-extras"
   ],
   "nativeMenus": true,
   "theme": "obsidian",
-  "textFontFamily": "SF Pro Display",
+  "textFontFamily": "SF Pro Display,CMU Serif",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "showRibbon": false
 }
