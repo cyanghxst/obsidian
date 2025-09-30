@@ -1,0 +1,60 @@
+/* =========================================
+   IMAGES (ALT-BASED HELPERS + CENTERING)
+   ========================================= */
+
+/* Centers images in Editor Mode */
+.cm-editor img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Centers images in Reading Mode */
+.markdown-preview-view img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* =========================================
+   MATHJAX
+   ========================================= */
+
+mjx-math {
+    font-size: 120% !important;
+}
+
+.math-block mjx-mtd {
+    padding-bottom: 0.2em !important;
+    padding-top: 0.2em !important;
+}
+
+/* =========================================
+   CALLOUTS
+   ========================================= */
+
+.callout {
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+}
+
+.callout[data-callout="important"] {
+    --callout-color: var(--callout-important);
+    --callout-icon: lucide-circle-alert;
+}
+
+/* =========================================
+   HEADINGS & TITLES
+   ========================================= */
+
+.inline-title {
+    padding-bottom: 10px;
+}
+
+/* Optional heading spacing helper when body has class .h2-l */
+.h2-l .markdown-reading-view h2,
+.h2-l .mod-cm6 .cm-editor .HyperMD-header-2 {
+    padding-bottom: .4em;
+}

@@ -1,0 +1,87 @@
+/* =========================================
+   EDITOR / READING VIEW TWEAKS
+   ========================================= */
+
+/* list */
+.markdown-source-view.is-live-preview {
+    --list-padding-inline-start: var(--list-indent-editing);
+    --list-marker-space: 0.25em;
+}
+
+.markdown-source-view.mod-cm6 .cm-table-widget .table-row-btn {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--max-width);
+    border-top: none;
+    cursor: s-resize;
+}
+
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator {
+    padding-inline-end: 8px;
+}
+
+/* Icon */
+.view-content .is-collapsed .list-collapse-indicator svg.svg-icon,
+.view-content .is-collapsed .collapse-indicator svg.svg-icon {
+    color: var(--collapse-icon-color);
+}
+
+/* Buttons & links */
+.edit-block-button {
+    color: #b3b3b3;
+    background-color: transparent !important;
+}
+
+.external-link {
+    padding-inline-end: 1em;
+}
+
+/* =========================================
+   FRONTMATTER / METADATA & INPUTS
+   ========================================= */
+
+textarea,
+input.metadata-input-text,
+input[type='date'],
+input[type='datetime-local'],
+input[type='text'],
+input[type='search'],
+input[type='email'],
+input[type='password'],
+input[type='number'] {
+    color: var(--text-muted);
+}
+
+input.metadata-property-key-input {
+    color: var(--metadata-label-text-color);
+    font-size: var(--metadata-label-font-size);
+}
+
+.metadata-add-button {
+    text-transform: lowercase !important;
+}
+
+.metadata-container {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.metadata-container .multi-select-pill {
+    background: var(--tag-background);
+    color: var(--tag-color);
+    line-height: 1.1;
+}
+
+.metadata-container .multi-select-pill:hover {
+    background: var(--tag-color);
+    color: #ffffff;
+}
+
+.metadata-container .multi-select-pill:hover .multi-select-pill-remove-button {
+    color: #ffffff;
+    fill: #ffffff;
+}
