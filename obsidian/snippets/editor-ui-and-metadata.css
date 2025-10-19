@@ -85,6 +85,9 @@ input.metadata-property-key-input {
     color: #ffffff;
     fill: #ffffff;
 }
+.collapse-icon svg.svg-icon {
+    width: 8px;
+}
 .inline-title {
     margin-bottom: 25px;
 }
