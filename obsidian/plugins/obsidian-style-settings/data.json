@@ -54,7 +54,7 @@
   "minimal-style@@table-nowrap": false,
   "minimal-advanced@@animations": "default",
   "minimal-style@@minimal-unstyled-tags": false,
-  "minimal-style@@metadata-heading-off": true,
+  "minimal-style@@metadata-heading-off": false,
   "minimal-style@@metadata-add-property-off": false,
   "minimal-style@@metadata-icons-off": true,
   "minimal-style@@metadata-dividers": false,
