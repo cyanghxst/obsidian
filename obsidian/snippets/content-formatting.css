@@ -25,6 +25,10 @@
 mjx-math {
     font-size: 100% !important;
 }
+/* Only enlarge block/display math (skip inline) */
+mjx-container[display="true"] {
+    font-size: 110% !important;
+}
 
 .math-block mjx-mtd {
     padding-bottom: 0.3em !important;
