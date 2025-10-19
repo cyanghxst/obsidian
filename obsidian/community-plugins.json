@@ -9,5 +9,9 @@
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "templater-obsidian",
-  "obsidian-desmos"
+  "obsidian-desmos",
+  "obsidian-tikzjax",
+  "obsidian-excalidraw-plugin",
+  "share-note",
+  "obsidian-git"
 ]
