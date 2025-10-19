@@ -46,3 +46,8 @@ body {
     --nav-collapse-icon-color-collapsed: rgba(var(--mono-rgb-100), 0.3);
     --divider-color: rgba(0, 0, 0, 0.15);
 }
+
+/* remove jump flash highlight */
+.is-flashing {
+    background-color: unset !important;
+}
