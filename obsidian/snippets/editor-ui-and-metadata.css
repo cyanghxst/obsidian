@@ -88,6 +88,10 @@ input.metadata-property-key-input {
 .collapse-icon svg.svg-icon {
     width: 8px;
 }
+
+.metadata-properties-heading .collapse-indicator {
+    inset-inline-start: -13.5px;
+}
 .inline-title {
     margin-bottom: 25px;
 }
