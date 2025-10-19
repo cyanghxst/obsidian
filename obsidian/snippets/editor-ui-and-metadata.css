@@ -88,6 +88,12 @@ input.metadata-property-key-input {
 .inline-title {
     margin-bottom: 25px;
 }
+
+.markdown-source-view .metadata-container,
+.markdown-preview-view .metadata-container {
+    transform: translateX(0);
+}
+
 .workspace-leaf-resize-handle {
     border-color: black;
 }
