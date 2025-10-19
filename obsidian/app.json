@@ -1,6 +1,6 @@
 {
   "vimMode": true,
-  "foldHeading": false,
+  "foldHeading": true,
   "showLineNumber": false,
   "promptDelete": false,
   "autoPairBrackets": true,
