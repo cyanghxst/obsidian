@@ -88,3 +88,6 @@ input.metadata-property-key-input {
 .inline-title {
     margin-bottom: 25px;
 }
+.workspace-leaf-resize-handle {
+    border-color: black;
+}
