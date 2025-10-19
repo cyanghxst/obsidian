@@ -18,7 +18,7 @@
   ],
   "nativeMenus": true,
   "theme": "obsidian",
-  "textFontFamily": "SF Pro Display,CMU Serif",
+  "textFontFamily": "SF Pro Display",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "showRibbon": false
 }
