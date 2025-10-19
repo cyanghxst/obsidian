@@ -65,9 +65,9 @@ input.metadata-property-key-input {
 .metadata-container {
     background-color: var(--background-secondary);
     border: 1px solid var(--background-modifier-border);
-    border-radius: 8px;
+    border-radius: var(--callout-radius);
     padding: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .metadata-container .multi-select-pill {
