@@ -72,18 +72,18 @@ input.metadata-property-key-input {
 
 .metadata-container .multi-select-pill {
     background: var(--tag-background);
-    color: var(--tag-color);
+    color: rgba(var(--color-blue-rgb));
     line-height: 1.1;
 }
 
 .metadata-container .multi-select-pill:hover {
-    background: var(--tag-color);
-    color: #ffffff;
+    background: rgba(var(--color-blue-rgb));
+    color: var(--text);
 }
 
 .metadata-container .multi-select-pill:hover .multi-select-pill-remove-button {
-    color: #ffffff;
-    fill: #ffffff;
+    color: var(--text);
+    fill: var(--text);
 }
 
 .metadata-properties-heading.is-collapsed {
