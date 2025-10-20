@@ -85,6 +85,11 @@ input.metadata-property-key-input {
     color: #ffffff;
     fill: #ffffff;
 }
+
+.metadata-properties-heading.is-collapsed {
+    margin-bottom: 0px;
+}
+
 .collapse-icon svg.svg-icon {
     width: 8px;
 }
