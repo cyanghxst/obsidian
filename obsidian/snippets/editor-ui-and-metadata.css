@@ -92,6 +92,18 @@ input.metadata-property-key-input {
 .metadata-properties-heading .collapse-indicator {
     inset-inline-start: -13.5px;
 }
+
+/* Hide all collapse indicators everywhere */
+.collapse-indicator,
+.cm-fold-indicator .collapse-indicator,
+.fold-gutter .collapse-indicator,
+.view-content .list-collapse-indicator,
+.metadata-properties-heading .collapse-indicator,
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator,
+.cm-gutterElement .collapse-indicator,
+.cm-gutterElement .is-collapsed .collapse-indicator {
+    opacity: 0 !important;
+}
 .inline-title {
     margin-bottom: 25px;
 }
