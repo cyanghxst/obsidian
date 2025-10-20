@@ -62,3 +62,10 @@ mjx-container[display="true"] {
 .h2-l .mod-cm6 .cm-editor .HyperMD-header-2 {
     padding-bottom: 0.3em;
 }
+
+/* notifications */
+.notice {
+    background-color: var(--background-secondary);
+    color: var(--text);
+    border: 1px solid var(--background-modifier-border);
+}
