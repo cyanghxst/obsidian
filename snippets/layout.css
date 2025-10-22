@@ -1,6 +1,4 @@
-/* =========================================
-   EDITOR / READING VIEW TWEAKS
-   ========================================= */
+/* --- Editor & Reading View Tweaks --- */
 
 /* list */
 .markdown-source-view.is-live-preview {
@@ -21,13 +19,13 @@
     padding-inline-end: 8px;
 }
 
-/* Icon */
+/* icon */
 .view-content .is-collapsed .list-collapse-indicator svg.svg-icon,
 .view-content .is-collapsed .collapse-indicator svg.svg-icon {
     color: var(--collapse-icon-color);
 }
 
-/* Buttons & links */
+/* buttons & links */
 .edit-block-button {
     color: #b3b3b3;
     background-color: transparent !important;
@@ -37,9 +35,7 @@
     padding-inline-end: 1em;
 }
 
-/* =========================================
-   FRONTMATTER / METADATA & INPUTS
-   ========================================= */
+/* --- frontmatter & inputs --- */
 
 textarea,
 input.metadata-input-text,
@@ -98,7 +94,7 @@ input.metadata-property-key-input {
     inset-inline-start: -13.5px;
 }
 
-/* Hide all collapse indicators everywhere */
+/* hide all collapse indicators everywhere */
 .collapse-indicator,
 .cm-fold-indicator .collapse-indicator,
 .fold-gutter .collapse-indicator,
@@ -109,6 +105,7 @@ input.metadata-property-key-input {
 .cm-gutterElement .is-collapsed .collapse-indicator {
     opacity: 0 !important;
 }
+
 .inline-title {
     margin-bottom: 25px;
 }
@@ -120,4 +117,43 @@ input.metadata-property-key-input {
 
 .workspace-leaf-resize-handle {
     border-color: black;
+}
+
+/* workspace & sidebar */
+body:not(.is-mobile)
+    .workspace-split.mod-left-split
+    .workspace-sidedock-vault-profile {
+    border-top: transparent;
+}
+
+body:not(.is-mobile)
+    .workspace-split.mod-left-split
+    .workspace-sidedock-vault-profile
+    .workspace-drawer-vault-switcher-icon {
+    color: var(--icon-color);
+    opacity: var(--icon-opacity);
+}
+
+/* checkboxes */
+.checkbox-square {
+    --checkbox-radius: 3px;
+}
+
+/* jump to link */
+.jl.popover {
+    position: absolute;
+    display: block;
+    z-index: 10000;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 186, 133, 0.8),
+        rgba(255, 186, 66, 0.8)
+    );
+    border: 1px solid rgb(227, 157, 35);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: black;
+    padding: 1px 3px;
+    border-radius: 3px;
 }
