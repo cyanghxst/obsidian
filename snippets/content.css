@@ -1,8 +1,4 @@
-/* =========================================
-   IMAGES (ALT-BASED HELPERS + CENTERING)
-   ========================================= */
-
-/* Centers images in Editor Mode */
+/* centers images in editor mode */
 .cm-editor img {
     display: block;
     margin-left: auto;
@@ -10,7 +6,7 @@
     max-width: 100%;
 }
 
-/* Centers images in Reading Mode */
+/* centers images in editor mode */
 .markdown-preview-view img {
     display: block;
     margin-left: auto;
@@ -18,46 +14,40 @@
     max-width: 100%;
 }
 
-/* =========================================
-   MATHJAX
-   ========================================= */
-
+/* mathjax: size */
 mjx-math {
     font-size: 100% !important;
 }
-/* Only enlarge block/display math (skip inline) */
+
+/* mathjax: enlarge display style */
 mjx-container[display="true"] {
     font-size: 110% !important;
 }
 
+/* mathjax: line height */
 .math-block mjx-mtd {
     padding-bottom: 0.3em !important;
     padding-top: 0.3em !important;
 }
 
-/* =========================================
-   CALLOUTS
-   ========================================= */
-
+/* no breaking callout when exporting to pdf */
 .callout {
     page-break-inside: avoid;
     break-inside: avoid-page;
 }
 
+/* callout: important */
 .callout[data-callout="important"] {
     --callout-color: var(--callout-important);
     --callout-icon: lucide-circle-alert;
 }
 
-/* =========================================
-   HEADINGS & TITLES
-   ========================================= */
-
+/* inline title padding */
 .inline-title {
     padding-bottom: 10px;
 }
 
-/* Optional heading spacing helper when body has class .h2-l */
+/* H2 line divider padding */
 .h2-l .markdown-reading-view h2,
 .h2-l .mod-cm6 .cm-editor .HyperMD-header-2 {
     padding-bottom: 0.3em;

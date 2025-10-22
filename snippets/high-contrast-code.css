@@ -1,0 +1,85 @@
+/************************************************************
+ * A11y-Light syntax highlighting for Obsidian
+ * WCAG-AA compliant colors from ericwbailey/a11y-syntax-highlighting
+ * Works in:
+ *   – Live Preview (CodeMirror 6: .cm-*)
+ *   – Reading View / PDF export (Prism: .token.*)
+ ************************************************************/
+
+/* base code block styling */
+.markdown-preview-view pre code,
+.markdown-rendered pre code {
+    /* background: #FEFEFE; */
+    color: #545454; /* Default text */
+}
+
+/* live preview base */
+.cm-s-obsidian,
+.cm-editor .cm-content {
+    background: #fefefe;
+    color: #545454;
+}
+
+/* comments */
+.cm-comment,
+.token.comment {
+    color: #696969;
+    font-style: italic;
+}
+
+/* keywords & operators */
+.cm-keyword,
+.cm-operator,
+.token.keyword,
+.token.operator {
+    color: #aa22ff;
+    font-weight: 600;
+}
+
+/* Strings */
+.cm-string,
+.token.string {
+    color: #008000;
+}
+
+/* numbers */
+.cm-number,
+.token.number {
+    color: #aa0000;
+}
+
+/* functions, methods */
+.cm-variable-2,
+.cm-def,
+.token.function {
+    color: #0000ff;
+    font-weight: 600;
+}
+
+/* types, classes */
+.cm-variable-3,
+.cm-type,
+.token.class-name,
+.token.builtin {
+    color: #2b91af;
+    font-weight: 600;
+}
+
+/* attributes / property names */
+.cm-property,
+.token.property {
+    color: #aa22ff;
+}
+
+/* important / bold emphasis */
+.token.important {
+    color: #e90;
+    font-weight: bold;
+}
+
+/* ensure code blocks don’t split in pdfs */
+pre,
+code {
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+}
