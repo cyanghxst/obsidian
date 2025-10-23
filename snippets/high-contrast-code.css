@@ -1,10 +1,10 @@
-/************************************************************
+/*
  * A11y-Light syntax highlighting for Obsidian
  * WCAG-AA compliant colors from ericwbailey/a11y-syntax-highlighting
  * Works in:
  *   – Live Preview (CodeMirror 6: .cm-*)
  *   – Reading View / PDF export (Prism: .token.*)
- ************************************************************/
+ */
 
 /* base code block styling */
 .markdown-preview-view pre code,
@@ -36,7 +36,7 @@
     font-weight: 600;
 }
 
-/* Strings */
+/* strings */
 .cm-string,
 .token.string {
     color: #008000;
