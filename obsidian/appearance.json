@@ -14,7 +14,10 @@
     "content-formatting",
     "core-theme",
     "editor-ui-and-metadata",
-    "layout-workspace-extras"
+    "layout-workspace-extras",
+    "content",
+    "core",
+    "layout"
   ],
   "nativeMenus": true,
   "theme": "obsidian",
