@@ -8,7 +8,7 @@
   "autoDelete$": true,
   "loadSnippetsFromFile": true,
   "loadSnippetVariablesFromFile": false,
-  "snippetsFileLocation": "",
+  "snippetsFileLocation": "latex-suite.js",
   "snippetVariablesFileLocation": "",
   "concealEnabled": false,
   "concealRevealTimeout": 0,

@@ -1,5 +1,8 @@
 {
-  "letters": "sfnjklhodweimbuyvrgtaqpcxz/SFNJKLHODWEIMBUYVRGTAQPCXZ?",
+  "letters": "jklhsfnhodweimbuyvrgtaqpcxz/SFNJKLHODWEIMBUYVRGTAQPCXZ?",
   "jumpToAnywhereRegex": "\\b\\w{3,}\\b",
-  "lightspeedCaseSensitive": false
+  "lightspeedCaseSensitive": false,
+  "jumpToLinkIfOneLinkOnly": true,
+  "lightspeedJumpToStartOfWord": false,
+  "lightspeedCharacterCount": 2
 }
