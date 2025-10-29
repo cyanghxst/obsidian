@@ -3,16 +3,15 @@
   "settings-search",
   "omnisearch",
   "darlal-switcher-plus",
-  "mrj-jump-to-link",
   "obsidian-vimrc-support",
   "open-in-new-tab",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
   "templater-obsidian",
-  "obsidian-desmos",
   "obsidian-tikzjax",
   "obsidian-excalidraw-plugin",
   "share-note",
   "obsidian-git",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "mrj-jump-to-link"
 ]
