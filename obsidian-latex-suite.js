@@ -1,6 +1,11 @@
 [
     // Math mode
-    { trigger: "mk", replacement: "$$0$", options: "tA", description: "Inline" },
+    {
+        trigger: "mk",
+        replacement: "$$0$",
+        options: "tA",
+        description: "Inline",
+    },
     {
         trigger: "dm",
         replacement: "$$\n$0\n$$",
@@ -141,8 +146,8 @@
     // More auto letter subscript
     {
         trigger: /([A-Za-z])_(\d\d)/,
-            replacement: "[[0]]_{[[1]]}",
-            options: "rmA",
+        replacement: "[[0]]_{[[1]]}",
+        options: "rmA",
     },
     {
         trigger: /\\hat{([A-Za-z])}(\d)/,
@@ -257,8 +262,8 @@
     // Insert space after Greek letters and symbols
     {
         trigger: "\\\\(${GREEK}|${SYMBOL}|${MORE_SYMBOLS})([A-Za-z])",
-            replacement: "\\[[0]] [[1]]",
-            options: "rmA",
+        replacement: "\\[[0]] [[1]]",
+        options: "rmA",
     },
     {
         trigger: "\\\\(${GREEK}|${SYMBOL}) sr",
@@ -309,8 +314,8 @@
     // Derivatives and integrals
     {
         trigger: "par",
-            replacement: "\\frac{ \\partial ${0:y} }{ \\partial ${1:x} } $2",
-            options: "m",
+        replacement: "\\frac{ \\partial ${0:y} }{ \\partial ${1:x} } $2",
+        options: "m",
     },
     {
         trigger: /pa([A-Za-z])([A-Za-z])/,
@@ -348,17 +353,18 @@
     // Trigonometry
     {
         trigger: /([^\\])(arcsin|sin|arccos|cos|arctan|tan|csc|sec|cot)/,
-            replacement: "[[0]]\\[[1]]",
-            options: "rmA",
-            description: "Add backslash before trig funcs",
+        replacement: "[[0]]\\[[1]]",
+        options: "rmA",
+        description: "Add backslash before trig funcs",
     },
 
     {
-        trigger: /\\(arcsin|sin|arccos|cos|arctan|tan|csc|sec|cot)([A-Za-gi-z])/,
+        trigger:
+            /\\(arcsin|sin|arccos|cos|arctan|tan|csc|sec|cot)([A-Za-gi-z])/,
         replacement: "\\[[0]] [[1]]",
         options: "rmA",
         description:
-        "Add space after trig funcs. Skips letter h to allow sinh, cosh, etc.",
+            "Add space after trig funcs. Skips letter h to allow sinh, cosh, etc.",
     },
 
     {
@@ -371,8 +377,8 @@
     // Visual operations
     {
         trigger: "U",
-            replacement: "\\underbrace{ ${VISUAL} }_{ $0 }",
-            options: "mA",
+        replacement: "\\underbrace{ ${VISUAL} }_{ $0 }",
+        options: "mA",
     },
     {
         trigger: "O",
@@ -425,37 +431,37 @@
         trigger: "pmat",
         replacement: "\\begin{pmatrix}\n$0\n\\end{pmatrix}",
         options: "MA",
-        description: "Parenthesis Matrix"
+        description: "Parenthesis Matrix",
     },
     {
         trigger: "bmat",
         replacement: "\\begin{bmatrix}\n$0\n\\end{bmatrix}",
         options: "MA",
-        description: "Bracket Matrix"
+        description: "Bracket Matrix",
     },
     {
         trigger: "Bmat",
         replacement: "\\begin{Bmatrix}\n$0\n\\end{Bmatrix}",
         options: "MA",
-        description: "Curly brace Matrix"
+        description: "Curly brace Matrix",
     },
     {
         trigger: "vmat",
         replacement: "\\begin{vmatrix}\n$0\n\\end{vmatrix}",
         options: "MA",
-        description: "Vertical line Matrix"
+        description: "Vertical line Matrix",
     },
     {
         trigger: "Vmat",
         replacement: "\\begin{Vmatrix}\n$0\n\\end{Vmatrix}",
         options: "MA",
-        description: "Double vertical line Matrix"
+        description: "Double vertical line Matrix",
     },
     {
         trigger: "matrix",
         replacement: "\\begin{matrix}\n$0\n\\end{matrix}",
         options: "MA",
-        description: "Plain Matrix"
+        description: "Plain Matrix",
     },
 
     // Wrap
@@ -541,13 +547,15 @@
     // Operator form (acts on parentheses)
     {
         trigger: "Ddx",
-            replacement: "\\frac{ d }{ d${0:x} } \\left( ${1:f(${0:x})} \\right) $2",
-            options: "mA",
-            description: "d/dx (...)",
+        replacement:
+            "\\frac{ d }{ d${0:x} } \\left( ${1:f(${0:x})} \\right) $2",
+        options: "mA",
+        description: "d/dx (...)",
     },
     {
         trigger: "Ddt",
-        replacement: "\\frac{ d }{ d${0:t} } \\left( ${1:f(${0:t})} \\right) $2",
+        replacement:
+            "\\frac{ d }{ d${0:t} } \\left( ${1:f(${0:t})} \\right) $2",
         options: "mA",
         description: "d/dt (...)",
     },
@@ -612,7 +620,7 @@
     {
         trigger: "tayl",
         replacement:
-        "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3",
+            "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3",
         options: "mA",
         description: "Taylor expansion",
     },
