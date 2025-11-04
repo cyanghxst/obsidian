@@ -338,7 +338,8 @@
     { trigger: "<->", replacement: "\\leftrightarrow ", options: "mA" },
     { trigger: "->", replacement: "\\to", options: "mA" },
     { trigger: "!>", replacement: "\\mapsto", options: "mA" },
-    { trigger: "=>", replacement: "\\implies", options: "mA" },
+    { trigger: "=>", replacement: "\\Rightarrow", options: "mA" },
+    { trigger: "==>", replacement: "\\implies", options: "mA" },
     { trigger: "=<", replacement: "\\impliedby", options: "mA" },
 
     { trigger: "and", replacement: "\\cap", options: "mA" },
