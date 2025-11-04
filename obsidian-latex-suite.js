@@ -313,7 +313,7 @@
     },
     {
         trigger: "lim",
-        replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2",
+        replacement: "\\displaystyle\\lim_{ ${0:n} \\to ${1:\\infty} } $2",
         options: "mA",
     },
     { trigger: "+-", replacement: "\\pm", options: "mA" },
