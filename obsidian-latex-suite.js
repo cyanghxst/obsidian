@@ -298,7 +298,7 @@
     { trigger: "yjj", replacement: "y_{j}", options: "mA" },
 
     // Symbols
-    { trigger: "ooo", replacement: "\\infty", options: "mA" },
+    { trigger: "inf", replacement: "\\infty", options: "mA" },
     { trigger: "sum", replacement: "\\sum", options: "mA" },
     { trigger: "prod", replacement: "\\prod", options: "mA" },
     {
