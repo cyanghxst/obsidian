@@ -41,6 +41,23 @@
         options: "mA",
         description: "Array",
     },
+    // ------------
+    // Derivatives
+    // ------------
+
+    // Leibniz
+    {
+        trigger: /dd([a-ce-z])/,
+        replacement: "\\dfrac{\\mathrm{d}}{\\mathrm{d}[[0]]} $1",
+        options: "mA",
+        description: "d/d? ...",
+    },
+    {
+        trigger: /d([a-ce-z])d([a-ce-z])/,
+        replacement: "\\dfrac{\\mathrm{d}[[0]]}{\\mathrm{d}[[1]]} $1",
+        options: "mA",
+        description: "d?/d? ...",
+    },
         options: "mA",
         description: "mA",
     // ---------
@@ -541,58 +558,6 @@
     { trigger: "lr[", replacement: "\\left[ $0 \\right] $1", options: "mA" },
     { trigger: "lr|", replacement: "\\left| $0 \\right| $1", options: "mA" },
     { trigger: "lra", replacement: "\\left< $0 \\right> $1", options: "mA" },
-
-    // ------------
-    // Derivatives
-    // ------------
-
-    // Ordinary derivatives (Leibniz)
-    {
-        trigger: "dy",
-        replacement: "\\dfrac{ \\mathrm{d}y }{ \\mathrm{d}x } \ $2",
-        options: "mA",
-        description: "dy/dx",
-    },
-    {
-        trigger: "dx",
-        replacement: "\\dfrac{ \\mathrm{d} }{ \\mathrm{d}x } \ $2",
-        options: "mA",
-        description: "d/dx",
-    },
-    // {
-    //     trigger: "d2f",
-    //     replacement: "\\frac{ \\mathrm{d}^{2} ${0:y} }{ \\mathrm{d}${1:x}^{2} } $2",
-    //     options: "mA",
-    //     description: "d^2y/dx^2",
-    // },
-    // {
-    //     trigger: "d3f",
-    //     replacement: "\\frac{ \\mathrm{d}^{3} ${0:y} }{ \\mathrm{d}${1:x}^{3} } $2",
-    //     options: "mA",
-    //     description: "d^3y/dx^3",
-    // },
-
-    // Operator form (acts on parentheses)
-    {
-        trigger: "Ddx",
-        replacement:
-            "\\frac{ d }{ d${0:x} } \\left( ${1:f(${0:x})} \\right) $2",
-        options: "mA",
-        description: "d/dx (...)",
-    },
-    {
-        trigger: "Ddt",
-        replacement:
-            "\\frac{ d }{ d${0:t} } \\left( ${1:f(${0:t})} \\right) $2",
-        options: "mA",
-        description: "d/dt (...)",
-    },
-    {
-        trigger: "Ddu",
-        replacement: "\\frac{ d }{ d${0:u} } \\left( ${1:} \\right) $2",
-        options: "mA",
-        description: "d/du (...)",
-    },
 
     // // Prime notation
     // {trigger: "pr1",  replacement: "${0:f}'(${1:x})$2", options: "mA", description: "f'(x)"},
