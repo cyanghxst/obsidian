@@ -1,0 +1,76 @@
+/* mathjax: size */
+mjx-math {
+    font-size: 100% !important;
+}
+
+/* mathjax: enlarge display style */
+mjx-container[display="true"] {
+    font-size: 110% !important;
+}
+
+/* mathjax: line height */
+/* .math-block mjx-mtd { */
+/*     padding-bottom: 0.3em !important; */
+/*     padding-top: 0.3em !important; */
+/* } */
+
+/* Increase padding for boxed math (MathJax v3 CHTML) */
+mjx-box {
+    padding: 0.5em !important;
+}
+
+/* ensure sqrt remains unchanged even inside a box */
+mjx-sqrt mjx-box {
+    padding: 0.234em 0 0 0 !important;
+}
+
+mjx-menclose mjx-box {
+    padding: 0.267em !important;
+}
+
+/* Optional: soften border and spacing around the box */
+/* mjx-box {
+/*     border-radius: 4px; /* nicer corners */
+/*     margin: 0 0.15em; /* space between text and the box itself */
+/* }
+
+/* If inline boxes are still tight next to text, add a small container margin */
+mjx-container[jax="CHTML"][display="false"] mjx-box {
+    margin: 0 0.25em;
+}
+
+mjx-container [space="2"] {
+    margin-left: 0.3em !important;
+}
+
+/* sum */
+mjx-over {
+    padding-bottom: 0.05em !important;
+    padding-left: 1em !important;
+}
+
+/* sum */
+mjx-under {
+    padding-top: 0.4em !important;
+    /* padding-left: 0.148em; */
+}
+
+mjx-c.mjx-c7B.TEX-S3::before {
+    padding: 1.45em 1em 0.949em 0 !important;
+    content: "\{";
+}
+
+mjx-stretchy-v.mjx-c7B mjx-mid mjx-c::before {
+    content: "⎨";
+    padding: 1.16em 1em 0.66em 0px !important;
+}
+
+mjx-stretchy-v.mjx-c7B mjx-end mjx-c::before {
+    content: "⎩";
+    padding: 0.01em 1em 0.899em 0px !important;
+}
+
+mjx-stretchy-v.mjx-c7B mjx-beg mjx-c::before {
+    content: "⎧";
+    padding: 0.899em 1em 0.01em 0px !important;
+}
