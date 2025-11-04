@@ -73,6 +73,15 @@
         options: "mA",
         description: "d?/d? ...",
     },
+
+    // Boxed
+    {
+        trigger: "box",
+        replacement: "\\boxed{$1}",
+        options: "mA",
+        description: "Boxed",
+    },
+
         options: "mA",
         description: "mA",
     // ---------
