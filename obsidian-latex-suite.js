@@ -302,9 +302,9 @@
     { trigger: "sum", replacement: "\\sum", options: "mA" },
     { trigger: "prod", replacement: "\\prod", options: "mA" },
     {
-        trigger: "\\sum",
+        trigger: "Sum",
         replacement: "\\sum_{${0:i}=${1:1}}^{${2:N}} $3",
-        options: "m",
+        options: "mA",
     },
     {
         trigger: "\\prod",
