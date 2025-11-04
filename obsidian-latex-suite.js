@@ -41,6 +41,21 @@
         options: "mA",
         description: "Array",
     },
+
+    // ------------
+    // Functions
+    // ------------
+
+    // avoid overlapping with \cos
+    {
+        // trigger: /(?<![cb])o/,
+        trigger: "oh",
+        replacement: "\\circ \ $0",
+        options: "mA",
+        description: "f o g",
+        priority: -1,
+    },
+
     // ------------
     // Derivatives
     // ------------
