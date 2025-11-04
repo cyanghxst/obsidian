@@ -592,6 +592,7 @@
     { trigger: "{", replacement: "{$0}$1", options: "mA" },
     { trigger: "[", replacement: "[$0]$1", options: "mA" },
     { trigger: "lr(", replacement: "\\left( $0 \\right) $1", options: "mA" },
+    { trigger: "bg(", replacement: "\\big( $0 \\big) $1", options: "mA" },
     {
         trigger: "lr{",
         replacement: "\\left\\{ $0 \\right\\} $1",
