@@ -307,9 +307,9 @@
         options: "mA",
     },
     {
-        trigger: "\\prod",
+        trigger: "Prod",
         replacement: "\\prod_{${0:i}=${1:1}}^{${2:N}} $3",
-        options: "m",
+        options: "mA",
     },
     {
         trigger: "lim",
