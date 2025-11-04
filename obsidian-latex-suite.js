@@ -12,11 +12,76 @@
         options: "tAw",
         description: "Display",
     },
+
+    // -------------
+    // Environments
+    // -------------
+
     {
         trigger: "beg",
-        replacement: "\\begin{$0}\n$1\n\\end{$0}",
+        replacement: "\\begin{$0}\n\ \ \ \ $1\n\\end{$0}",
+        options: "mA",
+        description: "Begin",
+    },
+    {
+        trigger: "cases",
+        replacement: "\\begin{cases}\n\ \ \ \ $0\n\\end{cases}",
+        options: "mA",
+        description: "Cases",
+    },
+    {
+        trigger: "align",
+        replacement: "\\begin{align}\n\ \ \ \ $0\n\\end{align}",
+        options: "mA",
+        description: "Align",
+    },
+    {
+        trigger: "array",
+        replacement: "\\begin{array}\n\ \ \ \ $0\n\\end{array}",
+        options: "mA",
+        description: "Array",
+    },
         options: "mA",
         description: "mA",
+    // ---------
+    // Matrices
+    // ---------
+
+    {
+        trigger: "pmat",
+        replacement: "\\begin{pmatrix}\n\ \ \ \ $0\n\\end{pmatrix}",
+        options: "MA",
+        description: "Parenthesis Matrix",
+    },
+    {
+        trigger: "bmat",
+        replacement: "\\begin{bmatrix}\n\ \ \ \ $0\n\\end{bmatrix}",
+        options: "MA",
+        description: "Bracket Matrix",
+    },
+    {
+        trigger: "Bmat",
+        replacement: "\\begin{Bmatrix}\n\ \ \ \ $0\n\\end{Bmatrix}",
+        options: "MA",
+        description: "Curly brace Matrix",
+    },
+    {
+        trigger: "vmat",
+        replacement: "\\begin{vmatrix}\n\ \ \ \ $0\n\\end{vmatrix}",
+        options: "MA",
+        description: "Vertical line Matrix",
+    },
+    {
+        trigger: "Vmat",
+        replacement: "\\begin{Vmatrix}\n\ \ \ \ $0\n\\end{Vmatrix}",
+        options: "MA",
+        description: "Double vertical line Matrix",
+    },
+    {
+        trigger: "matrix",
+        replacement: "\\begin{matrix}\n\ \ \ \ $0\n\\end{matrix}",
+        options: "MA",
+        description: "Plain Matrix",
     },
 
     // Dashes
@@ -426,43 +491,6 @@
         options: "mA",
     },
 
-    // Matrices
-    {
-        trigger: "pmat",
-        replacement: "\\begin{pmatrix}\n$0\n\\end{pmatrix}",
-        options: "MA",
-        description: "Parenthesis Matrix",
-    },
-    {
-        trigger: "bmat",
-        replacement: "\\begin{bmatrix}\n$0\n\\end{bmatrix}",
-        options: "MA",
-        description: "Bracket Matrix",
-    },
-    {
-        trigger: "Bmat",
-        replacement: "\\begin{Bmatrix}\n$0\n\\end{Bmatrix}",
-        options: "MA",
-        description: "Curly brace Matrix",
-    },
-    {
-        trigger: "vmat",
-        replacement: "\\begin{vmatrix}\n$0\n\\end{vmatrix}",
-        options: "MA",
-        description: "Vertical line Matrix",
-    },
-    {
-        trigger: "Vmat",
-        replacement: "\\begin{Vmatrix}\n$0\n\\end{Vmatrix}",
-        options: "MA",
-        description: "Double vertical line Matrix",
-    },
-    {
-        trigger: "matrix",
-        replacement: "\\begin{matrix}\n$0\n\\end{matrix}",
-        options: "MA",
-        description: "Plain Matrix",
-    },
 
     // Wrap
     {
