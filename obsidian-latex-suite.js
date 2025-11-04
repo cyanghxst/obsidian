@@ -1,5 +1,8 @@
 [
-    // Math mode
+    // ---------------
+    // LaTeX Triggers
+    // ---------------
+
     {
         trigger: "mk",
         replacement: "$$0$",
