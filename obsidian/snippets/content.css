@@ -14,22 +14,6 @@
     max-width: 100%;
 }
 
-/* mathjax: size */
-mjx-math {
-    font-size: 100% !important;
-}
-
-/* mathjax: enlarge display style */
-mjx-container[display="true"] {
-    font-size: 110% !important;
-}
-
-/* mathjax: line height */
-.math-block mjx-mtd {
-    padding-bottom: 0.3em !important;
-    padding-top: 0.3em !important;
-}
-
 /* no breaking callout when exporting to pdf */
 .callout {
     page-break-inside: avoid;
