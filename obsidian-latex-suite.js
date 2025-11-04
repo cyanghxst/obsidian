@@ -82,8 +82,26 @@
         description: "Boxed",
     },
 
+    // Trigonometry
+    {
+        trigger: "invc",
+        replacement: "\\cos^{-1} $1",
         options: "mA",
-        description: "mA",
+        description: "cos^{-1}",
+    },
+    {
+        trigger: "invs",
+        replacement: "\\sin^{-1} $1",
+        options: "mA",
+        description: "sin^{-1}",
+    },
+    {
+        trigger: "invt",
+        replacement: "\\tan^{-1} $1",
+        options: "mA",
+        description: "tan^{-1}",
+    },
+
     // ---------
     // Matrices
     // ---------
