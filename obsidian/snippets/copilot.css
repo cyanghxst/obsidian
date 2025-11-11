@@ -1,0 +1,58 @@
+.tw-pb-1 {
+    padding-bottom: var(--size-4-2) !important;
+}
+
+/* .tw-rounded-md { */
+/*     border-radius: var(--radius-s); */
+/* } */
+
+.tw-border-solid {
+    background: var(--bg2);
+}
+
+.tw-border-transparent {
+    background: transparent;
+}
+
+.tw-gap-0\.5 {
+    gap: 0.3rem !important;
+}
+
+/* .tw-border-border { */
+/*     border-color: var(--background-modifier-border); */
+/* } */
+
+.tw-text-sm {
+    font-size: 0.85rem;
+    /* line-height: 1.25rem; */
+}
+
+.tw-font-bold {
+    font-weight: var(--font-medium);
+}
+
+.\[\&_svg\]\:tw-shrink-0 svg {
+    flex-shrink: 1;
+}
+
+/* .tw-size-full { */
+/*     height: 102.5%; */
+/* } */
+
+.tw-text-faint {
+    color: #a8a8a8;
+}
+
+.workspace-leaf-content .view-content {
+    padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) !important;
+    padding-bottom: max(
+        /* var(--safe-area-inset-bottom), */ var(--size-4-3)
+    ) !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content {
+    padding-bottom: max(
+        var(--safe-area-inset-bottom),
+        var(--size-4-3)
+    ) !important;
+}
