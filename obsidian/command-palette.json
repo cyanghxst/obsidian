@@ -1,10 +1,10 @@
 {
   "pinned": [
+    "share-note:share-note",
+    "share-note:force-upload",
+    "workspace:toggle-stacked-tabs",
     "editor:toggle-source",
     "editor:attach-file",
-    "app:delete-file",
-    "file-explorer:move-file",
-    "workspace:toggle-stacked-tabs",
-    "obsidian-style-settings:show-style-settings-leaf"
+    "app:delete-file"
   ]
 }

@@ -330,8 +330,13 @@
 
     { trigger: "===", replacement: "\\equiv", options: "mA" },
     { trigger: "!=", replacement: "\\neq", options: "mA" },
+
     { trigger: ">=", replacement: "\\geqslant", options: "mA" },
+    { trigger: "geq", replacement: "\\geq", options: "mA" },
+
     { trigger: "<=", replacement: "\\leqslant", options: "mA" },
+    { trigger: "leq", replacement: "\\leq", options: "mA" },
+
     { trigger: ">>", replacement: "\\gg", options: "mA" },
     { trigger: "<<", replacement: "\\ll", options: "mA" },
     { trigger: "simm", replacement: "\\sim", options: "mA" },
@@ -596,6 +601,7 @@
     { trigger: "[", replacement: "[$0]$1", options: "mA" },
     { trigger: "lr(", replacement: "\\left( $0 \\right) $1", options: "mA" },
     { trigger: "bg(", replacement: "\\big( $0 \\big) $1", options: "mA" },
+    { trigger: "Bg(", replacement: "\\Big( $0 \\Big) $1", options: "mA" },
     {
         trigger: "lr{",
         replacement: "\\left\\{ $0 \\right\\} $1",
