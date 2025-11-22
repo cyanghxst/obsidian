@@ -1,0 +1,19 @@
+.callout[data-callout="tasks"] {
+    --callout-color: 8, 109, 221;
+    --callout-icon: lucide-clipboard;
+}
+
+.callout[data-callout="morning"] {
+    --callout-color: 255, 179, 102;
+    --callout-icon: lucide-sunrise;
+}
+
+.callout[data-callout="night"] {
+    --callout-color: 158, 158, 158;
+    --callout-icon: lucide-moon;
+}
+
+.callout[data-callout="facts"] {
+    --callout-color: 120, 82, 238;
+    --callout-icon: lucide-brain-circuit;
+}
