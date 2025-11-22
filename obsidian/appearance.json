@@ -15,9 +15,11 @@
     "core-theme",
     "editor-ui-and-metadata",
     "layout-workspace-extras",
+    "layout",
     "content",
     "core",
-    "layout"
+    "copilot",
+    "callouts"
   ],
   "nativeMenus": true,
   "theme": "obsidian",
