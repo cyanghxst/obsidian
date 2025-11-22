@@ -43,3 +43,7 @@
     color: var(--text);
     border: 1px solid var(--background-modifier-border);
 }
+
+/* summary { */
+/*     margin-bottom: 0rem; */
+/* } */
