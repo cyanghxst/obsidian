@@ -17,3 +17,8 @@
     --callout-color: 120, 82, 238;
     --callout-icon: lucide-brain-circuit;
 }
+
+.callout[data-callout="tip"] {
+    --callout-color: var(--color-yellow-rgb);
+    --callout-icon: lucide-lightbulb;
+}
