@@ -1,6 +1,9 @@
-# Ignore Mac system files
+# macos system files
 .DS_Store
 
-# Ignore workspace files
+# workspace files
 obsidian/workspace.json
 obsidian/workspaces.json
+
+# copilot indexed info
+obsidian/copilot-index-184aa077df08b90ac9fe282cceaa325e.json
