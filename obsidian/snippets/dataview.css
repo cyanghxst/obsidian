@@ -1,0 +1,43 @@
+/* Make Dataview tables look like standard markdown tables */
+.dataview.table-view-table {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    border-collapse: collapse;
+    font-size: inherit;
+    width: auto; /* prevents full-width stretch */
+}
+
+/* Match Markdown table borders */
+.dataview.table-view-table th,
+.dataview.table-view-table td {
+    border: 1px solid var(--table-border-color);
+    padding: 6px 10px; /* same as markdown default */
+}
+
+/* Match Markdown header styling */
+.dataview.table-view-table thead th {
+    background-color: var(--table-header-background);
+    font-weight: var(--table-header-weight);
+    color: var(--text-normal);
+}
+
+/* Optional: zebra striping like markdown-preview */
+.dataview.table-view-table tr:nth-child(even) {
+    background-color: var(--table-row-background);
+}
+
+/* Link appearance identical to normal tables */
+.dataview.table-view-table a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.dataview.table-view-table a:hover {
+    text-decoration: underline;
+}
+
+/* Match Dataview row height to Markdown table */
+.dataview.table-view-table td,
+.dataview.table-view-table th {
+    padding: var(--table-cell-padding, 4px 10px); /* Markdown default spacing */
+    line-height: var(--table-line-height); /* Ensures consistent row height */
+}
