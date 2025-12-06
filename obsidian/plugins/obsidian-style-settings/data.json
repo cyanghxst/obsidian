@@ -12,8 +12,8 @@
   "minimal-style@@tag-color@@dark": "#0076FF",
   "minimal-style@@tag-background@@dark": "#293751",
   "minimal-style@@h2-size": "18.5pt",
-  "minimal-style@@row-lines": false,
-  "minimal-style@@col-lines": false,
+  "minimal-style@@row-lines": true,
+  "minimal-style@@col-lines": true,
   "minimal-style@@table-lines": true,
   "minimal-style@@row-alt": true,
   "minimal-style@@col-alt": false,
@@ -67,7 +67,6 @@
   "minimal-style@@tag-background-hover@@dark": "#2E4979",
   "minimal-style@@inline-title-size": "26pt",
   "minimal-style@@list-spacing": 0.105,
-  "minimal-style@@list-indent": 2,
   "cupertino@@sidedock-glass-off": true,
   "baseline-style@@row-lines": true,
   "baseline-style@@col-lines": true,
@@ -90,5 +89,9 @@
   "minimal-style@@h3-weight": 500,
   "minimal-style@@h2-weight": 600,
   "minimal-style@@h3-style": "normal",
-  "minimal-style@@h3-variant": "normal"
+  "minimal-style@@h3-variant": "normal",
+  "minimal-style@@trim-cols": true,
+  "minimal-style@@dataview-inline-lists": false,
+  "minimal-style@@metadata-label-width-multiplier": 10.5,
+  "minimal-style@@list-indent": 2
 }
