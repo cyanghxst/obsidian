@@ -617,8 +617,20 @@
     // {trigger: "pr3",  replacement: "${0:f}'''(${1:x})$2", options: "mA", description: "f'''(x)"},
 
     // // Evaluation bar / at-a-point
-    // {trigger: "at",   replacement: "\\biggr\\rvert_{ ${0:x} = ${1:a} } $2", options: "mA", description: "evaluate at x=a"},
-    // {trigger: "atv",  replacement: "\\biggr\\rvert_{ ${0:\\mathbf{x}} = ${1:\\mathbf{a}} } $2", options: "mA", description: "evaluate at vector a"},
+    {
+        trigger: "at",
+        // replacement: "\\biggr\\rvert_{ ${0:x} = ${1:a} } $2",
+        replacement: "\\left.\\right|_{ ${0:x} = ${1:a} } $2",
+        options: "mA",
+        description: "evaluate at x=a",
+    },
+    {
+        trigger: "atv",
+        replacement:
+            "\\biggr\\rvert_{ ${0:\\mathbf{x}} = ${1:\\mathbf{a}} } $2",
+        options: "mA",
+        description: "evaluate at vector a",
+    },
 
     // // Partials (single + higher order)
     // {trigger: "pdf",  replacement: "\\frac{ \\partial ${0:f} }{ \\partial ${1:x} } $2", options: "mA", description: "∂f/∂x"},

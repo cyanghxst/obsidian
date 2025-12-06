@@ -6,7 +6,7 @@
   "autoPairBrackets": true,
   "autoPairMarkdown": true,
   "spellcheck": false,
-  "foldIndent": false,
+  "foldIndent": true,
   "showInlineTitle": true,
   "newFileLocation": "current",
   "strictLineBreaks": false,
@@ -19,7 +19,7 @@
   "focusNewTab": true,
   "alwaysUpdateLinks": true,
   "smartIndentList": true,
-  "useTab": false,
+  "useTab": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
