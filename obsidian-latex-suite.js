@@ -76,6 +76,13 @@
         options: "mA",
         description: "d?/d? ...",
     },
+    {
+        trigger: /d(\d)([a-ce-zA-CE-Z])d([a-ce-zA-CE-Z])(\d)/,
+        replacement:
+            "\\dfrac{\\mathrm{d}^{[[0]]}[[1]]}{\\mathrm{d}[[2]]^{[[3]]}} $1",
+        options: "mA",
+        description: "d?/d? ...",
+    },
 
     // Boxed
     {
@@ -191,13 +198,13 @@
     { trigger: "//", replacement: "\\dfrac{$0}{$1}$2", options: "mA" },
     { trigger: "ee", replacement: "e^{ $0 }$1", options: "mA" },
     { trigger: "invs", replacement: "^{-1}", options: "mA" },
-    // {
-    //     trigger: /([A-Za-z])(\d)/,
-    //     replacement: "[[0]]_{[[1]]}",
-    //     options: "rmA",
-    //     description: "Auto letter subscript",
-    //     priority: -1,
-    // },
+    {
+        trigger: /([A-Za-z])(\d)/,
+        replacement: "[[0]]_{[[1]]}",
+        options: "rmA",
+        description: "Auto letter subscript",
+        priority: -1,
+    },
 
     {
         trigger: /([^\\])(exp|log|ln)/,
@@ -620,7 +627,7 @@
     {
         trigger: "at",
         // replacement: "\\biggr\\rvert_{ ${0:x} = ${1:a} } $2",
-        replacement: "\\left.\\right|_{ ${0:x} = ${1:a} } $2",
+        replacement: "\\left. $0 \\right|_{ ${1:x} = ${2:a} } $3",
         options: "mA",
         description: "evaluate at x=a",
     },
