@@ -3,8 +3,9 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date": "datetime",
+    "date": "date",
     "created": "datetime",
-    "status": "text"
+    "status": "text",
+    "": "number"
   }
 }

@@ -19,8 +19,8 @@
     "content",
     "copilot",
     "core",
-    "dataview",
-    "layout"
+    "layout",
+    "dataview"
   ],
   "nativeMenus": true,
   "theme": "obsidian",

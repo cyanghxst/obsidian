@@ -1,8 +1,9 @@
 {
   "pinned": [
     "templater-obsidian:create-new-note-from-template",
+    "obsidian-linter:lint-file",
+    "app:delete-file",
     "share-note:share-note",
-    "share-note:force-upload",
-    "app:delete-file"
+    "share-note:force-upload"
   ]
 }

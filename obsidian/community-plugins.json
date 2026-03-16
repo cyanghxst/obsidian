@@ -1,6 +1,4 @@
 [
-  "copilot",
-  "obsidian-core-search-assistant-plugin",
   "dataview",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
@@ -10,11 +8,13 @@
   "obsidian-minimal-settings",
   "omnisearch",
   "open-in-new-tab",
-  "darlal-switcher-plus",
   "settings-search",
   "obsidian-vimrc-support",
   "obsidian-tikzjax",
   "templater-obsidian",
   "obsidian-style-settings",
-  "share-note"
+  "share-note",
+  "copilot",
+  "obsidian-linter",
+  "darlal-switcher-plus"
 ]
